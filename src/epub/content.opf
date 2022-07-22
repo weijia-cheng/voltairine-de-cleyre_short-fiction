@@ -85,15 +85,35 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-rocket-of-iron.xhtml" id="a-rocket-of-iron.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/at-the-end-of-the-alley.xhtml" id="at-the-end-of-the-alley.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/the-chain-gang.xhtml" id="the-chain-gang.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-heart-of-angiolillo.xhtml" id="the-heart-of-angiolillo.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-old-shoemaker.xhtml" id="the-old-shoemaker.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-reward-of-an-apostate.xhtml" id="the-reward-of-an-apostate.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-sorrows-of-the-body.xhtml" id="the-sorrows-of-the-body.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-triumph-of-youth.xhtml" id="the-triumph-of-youth.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/to-strive-and-fail.xhtml" id="to-strive-and-fail.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/where-the-white-rose-died.xhtml" id="where-the-white-rose-died.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="a-rocket-of-iron.xhtml"/>
+		<itemref idref="the-chain-gang.xhtml"/>
+		<itemref idref="the-heart-of-angiolillo.xhtml"/>
+		<itemref idref="the-reward-of-an-apostate.xhtml"/>
+		<itemref idref="at-the-end-of-the-alley.xhtml"/>
+		<itemref idref="to-strive-and-fail.xhtml"/>
+		<itemref idref="the-sorrows-of-the-body.xhtml"/>
+		<itemref idref="the-triumph-of-youth.xhtml"/>
+		<itemref idref="the-old-shoemaker.xhtml"/>
+		<itemref idref="where-the-white-rose-died.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
