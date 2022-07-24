@@ -14,8 +14,7 @@ footer{
 /* End letters */
 
 /* Begin drama */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -49,32 +48,7 @@ table[epub|type~="z3998:drama"]{
 	width: 20%;
 }
 
-[epub|type~="z3998:stage-direction"]{
-	font-style: italic;
-}
-
-[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-}
-
-[epub|type~="z3998:stage-direction"]::before{
-	content: "(";
-	font-style: normal;
-}
-
-[epub|type~="z3998:stage-direction"]::after{
-	content: ")";
-	font-style: normal;
-}
-
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
-}
-
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
 }
 /* End drama */
